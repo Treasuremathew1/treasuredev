@@ -23,7 +23,6 @@ function Hero() {
         <Helmet>
           <title>Treasure Mathew - Portfolio</title>
           <meta name='description' content={About[0]} /> 
-          <link rel="stylesheet" href="" />
 
           <meta property="og:type" content="website" />
          <meta property="og:title" content="Treasure Mathew - Portfolio" />
