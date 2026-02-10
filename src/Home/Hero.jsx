@@ -184,7 +184,7 @@ function Hero() {
               >
               <Link to="https://factioncloth.com" target="_blank" className=''>View Project</Link>
               </button>
-              <div className='flex items-center gap-10 mt-4'>
+              <div className='grid md:grid-cols-3 gap-6 mt-4'>
                 <div className='flex items-center gap-2 border border-white/50 p-2 rounded-lg'>
                   <FileCode className='w-6 h-6 text-[#00A6FB]' />
                   <h1 className='text-sm'>HTML</h1>
@@ -222,7 +222,7 @@ function Hero() {
               >
               <Link to="https://book-six-alpha.vercel.app/" target="_blank" className=''>View Project</Link>
               </button>
-              <div className='flex items-center gap-10 mt-4'>
+              <div className='grid sm:grid-cols-3 gap-6 mt-4'>
                 <div className='flex items-center gap-2 border border-white/50 p-2 rounded-lg'>
                   <FileCode className='w-6 h-6 text-[#00A6FB]' />
                   <h1 className='text-sm'>HTML</h1>
@@ -260,7 +260,7 @@ function Hero() {
               >
               <Link to="https://coffee1-beryl.vercel.app/" target="_blank" className=''>View Project</Link>
               </button>
-              <div className='flex items-center gap-10 mt-4'>
+              <div className='grid sm:grid-cols-3 gap-6 mt-4'>
                 <div className='flex items-center gap-2 border border-white/50 p-2 rounded-lg'>
                   <FileCode className='w-6 h-6 text-[#00A6FB]' />
                   <h1 className='text-sm'>HTML</h1>
@@ -336,8 +336,8 @@ function Hero() {
               >
               <Link to="https://burger-web-coral.vercel.app" target="_blank" className=''>View Project</Link>
               </button>
-              <div className='flex items-center gap-10 mt-4'>
-                <div className='flex items-center gap-2 border border-white/50 p-2 rounded-lg'>
+              <div className='grid sm:grid-cols-3 gap-6 mt-4'>
+                <div className='flex  gap-2 border border-white/50 p-2 rounded-lg'>
                   <FileCode className='w-6 h-6 text-[#00A6FB]' />
                   <h1 className='text-sm'>HTML</h1>
                 </div>
@@ -522,7 +522,7 @@ function Hero() {
       >
         <div className='flex items-center justify-between gap-10 flex-col md:flex-row p-4'>
           <motion.div
-           className='bg-[#003459] p-4 rounded-lg border-2 border-white/50 w-full md:w-1/2'
+           className='bg-[#003459] p-4 rounded-lg border-2 border-white/50 w-full md:w-1/2 p-3'
           >
             <div>
               <h1 className='text-2xl font-bold'>Contact me let's talk!</h1>
