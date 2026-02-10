@@ -10,7 +10,7 @@ import { Code, Facebook, FileCode, Github, GithubIcon, Globe, Instagram, Layers,
 function Hero() {
 
   const About = [
-    "I am a passionate and self-driven website developer and graphic designer, focused on building practical, user-centered digital solutions that solve real problems. I enjoy solving problems, learning new technologies, and building projects that actually help people.",
+    "My name is Treasure Mathew know as (TreasureDev) I am a passionate and self-driven website developer and graphic designer, focused on building practical, user-centered digital solutions that solve real problems. I enjoy solving problems, learning new technologies, and building projects that actually help people.",
     "I work with modern web technologies, including HTML, CSS, JavaScript, React, and backend tools such as Node.js, MongoDB, Mongoose, and dotenv for environment configuration. I enjoy building complete systems from designing user interfaces to handling backend logic, databases, and application structure.",
     "In addition to development, I have a strong background in graphic design and interface design. I prioritize clean layouts, intuitive navigation, and responsive design, ensuring that users have smooth and enjoyable experiences across devices.",
     "I am the Founder of NaijaFoodMart, a local food marketplace platform I am currently building to help people easily order and buy raw and frozen food products within Nigeria. This project is designed to solve real-life problems related to food accessibility, convenience, and local commerce."
