@@ -616,4 +616,4 @@ function Hero() {
   )
 }
 
-export default 
+export default Hero;
