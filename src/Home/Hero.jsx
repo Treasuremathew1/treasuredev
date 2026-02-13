@@ -300,7 +300,7 @@ function Hero() {
               >
               <Link to="https://house1-iota.vercel.app/" target="_blank" className=''>View Project</Link>
               </button>
-              <div className='flex items-center gap-10 mt-4'>
+              <div className='grid sm:grid-cols-3 gap-6  mt-4'>
                 <div className='flex items-center gap-2 border border-white/50 p-2 rounded-lg'>
                   <FileCode className='w-6 h-6 text-[#00A6FB]' />
                   <h1 className='text-sm'>HTML</h1>
@@ -529,7 +529,7 @@ function Hero() {
             <div>
               <h1 className='text-2xl font-bold'>Contact me let's talk!</h1>
             </div>
-            <div className='mt-4'>
+            <div className='mt-4 w-full'>
               <motion.div
                className='flex items-center gap-2'
               >
@@ -616,4 +616,4 @@ function Hero() {
   )
 }
 
-export default Hero;
+export default 
