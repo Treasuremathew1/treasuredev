@@ -1,7 +1,7 @@
 //
 
 import treasure from './treasure.png';
-import hero from './hero.jpg';
+import hero from './hero.png';
 import about from "./about.png";
 import img_1 from "./img_1.jpg";
 import img_3 from "./img_3.jpg";
