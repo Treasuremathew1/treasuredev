@@ -106,11 +106,11 @@ function Hero() {
             </div>
           </motion.div>
           <motion.div
-           className='bg-[#003459] p-2 rounded-lg'
+           className='bg-[#003459] p-2 rounded-lg border-2 border-white/50'
           >
             <img 
              src={assests.about} 
-             className='w-200 h-120 object-cover rounded-lg'
+             className='w-250 h-120 object-cover rounded-lg'
              alt="" 
             />
           </motion.div>
