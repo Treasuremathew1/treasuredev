@@ -19,19 +19,21 @@ function Hero() {
     <div>
       <Header />
 
+
       <HelmetProvider>
-        <Helmet>
-          <title>Treasure Mathew - Portfolio</title>
-          <meta name='description' content={About[0]} /> 
+  <Helmet>
+    <title>Treasure Mathew - Portfolio</title>
 
-          <meta property="og:type" content="website" />
-         <meta property="og:title" content="Treasure Mathew - Portfolio" />
-         <meta property="og:description" content={About[0]} />
-         <meta property="og:url" content="https://treasuredev-myportfolio.vercel.app/" />
-         <meta property="og:image" content={`https://treasuredev-myportfolio.vercel.app/og-image-hero.jpg`} />
-        </Helmet>
+    <meta name="google-site-verification" content="_AxXwUrKRLkI4Oh__H26Df7N58_RGmDtwfFg_LI3Jm4" />
 
-      </HelmetProvider>
+    <meta name='description' content={About[0]} /> 
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Treasure Mathew - Portfolio" />
+    <meta property="og:description" content={About[0]} />
+    <meta property="og:url" content="https://treasuredev-myportfolio.vercel.app/" />
+    <meta property="og:image" content="https://treasuredev-myportfolio.vercel.app/og-image-hero.jpg" />
+  </Helmet>
+</HelmetProvider>
        
       <motion.section 
        className='flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-[#00171F] to-[#003459] text-white p-4'
