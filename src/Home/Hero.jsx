@@ -187,7 +187,7 @@ function Hero() {
               <button
                className='bg-[#00A6FB] text-white px-4 py-2 rounded-lg mt-4'
               >
-              <Link to="https://factioncloth.com" target="_blank" className=''>View Project</Link>
+              <Link to="https://cloth-sooty.vercel.app/" target="_blank" className=''>View Project</Link>
               </button>
               <div className='grid md:grid-cols-3 gap-6 mt-4'>
                 <div className='flex items-center gap-2 border border-white/50 p-2 rounded-lg'>
