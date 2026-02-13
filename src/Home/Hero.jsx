@@ -69,10 +69,13 @@ function Hero() {
        className='min-h-screen bg-gradient-to-br from-[#00171F] to-[#003459] text-white p-4'
        >
         <motion.div
-         className='grid grid-cols-1 md:grid-cols-2 gap-8 p-8 items-center'
+         className='grid grid-cols-1 md:grid-cols-2 gap-8 p-8 items-center bg-[#003459] p-2 m-2 rounded-lg'
         >
-          <motion.div>
-            <motion.div>
+          <motion.div 
+           className=''
+          > 
+            <motion.div 
+            >
               <motion.h1
                 className='text-4xl font-bold mb-4'
               >About Me</motion.h1>
@@ -107,7 +110,7 @@ function Hero() {
           >
             <img 
              src={assests.about} 
-             className='w-full h-120 object-cover rounded-lg'
+             className='w-200 h-120 object-cover rounded-lg'
              alt="" 
             />
           </motion.div>
