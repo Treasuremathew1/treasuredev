@@ -1,7 +1,7 @@
 //
 
 import treasure from './treasure.png';
-import hero from './hero.png';
+import all_img from './all_img.png';
 import about from "./about.png";
 import img_1 from "./img_1.jpg";
 import img_3 from "./img_3.jpg";
@@ -14,7 +14,7 @@ import img_6 from "./img_6.jpg";
 
 export const assests = {
     treasure,
-    hero,
+    all_img,
     about,
     img_1,
     img_2,

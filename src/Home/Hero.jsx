@@ -16,7 +16,7 @@ function Hero() {
     "I am the Founder of NaijaFoodMart, a local food marketplace platform I am currently building to help people easily order and buy raw and frozen food products within Nigeria. This project is designed to solve real-life problems related to food accessibility, convenience, and local commerce."
   ]
   return (
-    <div>
+    <div className='font-outfit'>
       <Header />
 
 
@@ -30,36 +30,38 @@ function Hero() {
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Treasure Mathew - Portfolio" />
     <meta property="og:description" content={About[0]} />
-    <meta property="og:url" content="https://treasuredev-myportfolio.vercel.app/" />
-    <meta property="og:image" content="https://treasuredev-myportfolio.vercel.app/og-image-hero.jpg" />
+    <meta property="og:url" content="https://treasuredevs-myportfolio.vercel.app/" />
+    <meta property="og:image" content="https://treasuredevs-myportfolio.vercel.app/og-image-hero.jpg" />
   </Helmet>
 </HelmetProvider>
        
       <motion.section 
-       className='flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-[#00171F] to-[#003459] text-white p-4'
+       className='min-h-screen bg-gradient-to-br from-[#00171F] to-[#003459] text-white p-4'
       >
-        <div className='flex items-center flex-col mt-50'>
-          <motion.h1
+        <div className='lg:flex items-center justify-between gap-10 m-5 flex-row mt-50'>
+         <div>
+            <motion.h1
             className='text-3xl font-medium'
-        >
+          >
             Hi, I'm
-        </motion.h1>
-        <motion.h1
-            className='text-5xl font-bold mt-4 text-center mb-4'
-        >
+          </motion.h1>
+          <motion.h1
+            className='text-6xl font-bold mt-4 mb-4'
+          >
             Treasure <span className='text-[#00A6FB]'>Mathew</span>
-        </motion.h1>
+          </motion.h1>
 
-        <motion.p
-         className='text-center'
-        >
-          To turn ideas into real product,  I enjoy solving problems, learning new technologies, and building projects that actually help people.
-        </motion.p>
+          <motion.p
+           className=''
+          >
+            turn ideas into real product,  I enjoy solving problems, <br /> learning new technologies, and building projects that actually help people.
+          </motion.p>
+         </div>
 
         <img 
-         src={assests.hero}
+         src={assests.all_img}
          alt="" 
-         className='w-100 h-100 mt-10 object-cover rounded-lg'
+         className='w-150 h-100 lg:w-200 lg:h-130 mt-10 object-cover rounded-lg'
         />
         </div>
       </motion.section>
@@ -86,7 +88,7 @@ function Hero() {
               </motion.p>
             </motion.div>
 
-            <div className='mt-4 bg-[#003459] w-70 p-4 rounded-lg border-2 border-white/60'>
+            <div className='mt-4 bg-[#003459] w-110 lg:w-full p-4 rounded-lg border-2 border-white/60'>
               <motion.div 
                className='grid grid-cols-1 md:grid-cols-3 gap-4'
               >
@@ -106,11 +108,11 @@ function Hero() {
             </div>
           </motion.div>
           <motion.div
-           className='bg-[#003459] w-70 p-2 rounded-lg border-2 border-white/50'
+           className='bg-[#003459] w-110 lg:w-full p-2 rounded-lg border-2 border-white/50'
           >
             <img 
-             src={assests.about} 
-             className='w-70 h-120 object-cover rounded-lg'
+             src={assests.all_img} 
+             className='w-110 h-110 lg:w-full object-cover rounded-lg'
              alt="" 
             />
           </motion.div>
