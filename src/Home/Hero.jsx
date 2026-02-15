@@ -88,7 +88,7 @@ function Hero() {
               </motion.p>
             </motion.div>
 
-            <div className='mt-4 bg-[#003459] w-110 lg:w-full p-4 rounded-lg border-2 border-white/60'>
+            <div className='mt-4 bg-[#003459] w-70 lg:w-full p-4 rounded-lg border-2 border-white/60'>
               <motion.div 
                className='grid grid-cols-1 md:grid-cols-3 gap-4'
               >
@@ -108,11 +108,11 @@ function Hero() {
             </div>
           </motion.div>
           <motion.div
-           className='bg-[#003459] w-110 lg:w-full p-2 rounded-lg border-2 border-white/50'
+           className='bg-[#003459] w-70 lg:w-full p-2 rounded-lg border-2 border-white/50'
           >
             <img 
              src={assests.all_img} 
-             className='w-110 h-110 lg:w-full object-cover rounded-lg'
+             className='w-70 h-110 lg:w-full object-cover rounded-lg'
              alt="" 
             />
           </motion.div>
