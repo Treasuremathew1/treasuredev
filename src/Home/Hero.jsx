@@ -30,8 +30,8 @@ function Hero() {
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Treasure Mathew - Portfolio" />
     <meta property="og:description" content={About[0]} />
-    <meta property="og:url" content="https://treasuredevs-myportfolio.vercel.app/" />
-    <meta property="og:image" content="https://treasuredevs-myportfolio.vercel.app/og-image-hero.jpg" />
+    <meta property="og:url" content="https://treasuredev.vercel.app/" />
+    <meta property="og:image" content="https://treasuredev.vercel.app/og-image-hero.jpg" />
   </Helmet>
 </HelmetProvider>
        
