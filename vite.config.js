@@ -1,18 +1,15 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  server: {
+    host: true,
+    port: 5173,
+    strictPort: true,
+  },
   plugins: [
-    tailwindcss({
-      theme: {
-        extend: {
-          fontFamily: {
-             mono: ["Roboto Mono", "monospace"],
-             sans: ["Poppins", "sans-serif"],
-             serif: ["Momo Trust Display", "serif"],
-          },
-        },
-      },
-    })
+    react(),
+    tailwindcss()
   ],
 })
